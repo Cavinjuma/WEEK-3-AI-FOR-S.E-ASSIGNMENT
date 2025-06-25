@@ -1,8 +1,8 @@
-# 🌸 Iris Flower Classification using Logistic Regression
+# Iris Flower Classification using Logistic Regression
 
 This project demonstrates a basic machine learning workflow using the **Iris dataset**. The goal is to classify iris flowers into three species: *setosa*, *versicolor*, and *virginica* based on their petal and sepal measurements.
 
-## 📚 Dataset
+##  Dataset
 The Iris dataset is a classic in the field of machine learning. It contains:
 - **150 samples**
 - **4 features**: sepal length, sepal width, petal length, and petal width
@@ -11,19 +11,19 @@ The Iris dataset is a classic in the field of machine learning. It contains:
   - 1 = Versicolor  
   - 2 = Virginica
 
-## 🧠 Objective
+## Objective
 To train a **Logistic Regression** model to accurately classify the species of an iris flower using its physical features.
 
 ---
 
-## 🔧 Technologies and Libraries
-- Python 🐍
+## Technologies and Libraries
+- Python 
 - NumPy
 - scikit-learn (sklearn)
 
 ---
 
-## 🚀 Steps Performed
+## Steps Performed
 
 1. **Import Libraries**  
    All necessary Python libraries were imported at the top for proper structure and clarity.
@@ -44,7 +44,7 @@ To train a **Logistic Regression** model to accurately classify the species of a
 
 ---
 
-## 📊 Results
+## Results
 
 The model achieved **100% accuracy** on the test data with perfect precision, recall, and F1-scores for all three classes.
 
@@ -61,7 +61,7 @@ accuracy                           1.00        60
 
 ---
 
-## ✅ Ethical Considerations
+##  Ethical Considerations
 
 - Ensure the model is not misused in sensitive or high-risk areas without further testing.
 - Always give credit to original dataset creators.
@@ -69,24 +69,11 @@ accuracy                           1.00        60
 
 ---
 
-## 🛠 Troubleshooting Challenges
+##  Troubleshooting Challenges
 
 - Adjusted `max_iter=1000` to resolve **convergence warning** from Logistic Regression.
 - Ensured correct shape of `X_train`, `X_test`, `y_train`, and `y_test`.
 - Used `random_state=42` to maintain reproducibility of results.
-
----
-
-
-## 👥 Contributors
-
-**Group 61**  
- 
-1.Joyce Njihia - nyamburanjihia@gmail.com
-2.Gospel Arinze - gospelarinzestuff@gmail.com
-3.Ling Mukiri - lingmukiri13@gmail.com
-4.Juma Calvin - jumacavin28@gmail.com
-5.EstherTrizar  - esthertrizar@gmail.com
 
 ---
 
